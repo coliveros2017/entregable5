@@ -1,0 +1,6 @@
+---
+ - name: Creando un index html
+   template: src=index.html dest=/tmp/index.html
+ - name: Creando un saludo html
+   template: src=saludo.html dest=/tmp/saludo.html
+

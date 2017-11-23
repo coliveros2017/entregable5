@@ -1,0 +1,3 @@
+ansible/files/mpwar16.pem
+ansible/files/mpwarcoliveros.pem
+vagrant/.vagrant/*
