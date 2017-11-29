@@ -4,5 +4,6 @@
   become: true
   become_user: root
   roles:
-        - { role: geerlingguy.firewall }
-        - my_rol
+    - {role: geerlingguy.apache}
+    - {role: geerlingguy.mysql}
+    - my_rol

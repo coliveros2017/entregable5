@@ -1,11 +1,13 @@
 ---
-- name: Install apache using own role.
+- name: My first playbook :)
   hosts: "webservers"
   become: true
   become_user: root
   roles:
-    - {role: geerlingguy.apache}
-    - {role: geerlingguy.mysql}
+    - role: geerlingguy.ntp
+      ntp_timezone: Europe/Madrid
+
+    - { role: geerlingguy.apache }
     - { role: geerlingguy.firewall }
 
     - role: geerlingguy.repo-remi
@@ -14,4 +16,5 @@
     - { role: geerlingguy.php-versions }
     - { role: geerlingguy.php }
     - { role: geerlingguy.composer }
-    - my_rol
+
+    - { role: geerlingguy.mysql }

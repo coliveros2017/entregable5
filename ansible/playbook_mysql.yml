@@ -1,11 +1,7 @@
 ---
-- name: Install mysql.
+- name: Install mysql using third party role.
   hosts: "databases"
   become: true
   become_user: root
   roles:
-    - role: geerlingguy.repo-remi
-      when: ansible_os_family == 'RedHat'
-    - {role: geerlingguy.mysql}
-      
-      
+    - { role: geerlingguy.mysql }
