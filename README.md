@@ -1,8 +1,13 @@
+
+#Entregable 4
+Entregable del tema 4 semana 8, esta en la rama entregable4
+
+
 #Entregable 5
 
 ## Introducción
 
-Entregable dl tema 5 sesion 10.  Se provisiona la maquina de desarrollo vagrant y la maquina de produccion EC2 con la mayor similitud posible 
+Entregable del tema 5 sesion 10.  Se provisiona la maquina de desarrollo vagrant y la maquina de produccion EC2 con la mayor similitud posible 
 
 
 ## Consideraciones
